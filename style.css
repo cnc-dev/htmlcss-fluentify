@@ -68,7 +68,7 @@ body{
   padding-left: 3px;
 }
 
-span{
+#diventa-tutor >span{
   padding-right: 30px;
 }
 
@@ -186,7 +186,6 @@ span{
   background-color: #0d325a;
   width: 100%;
   height: 30vw;
-  /* position: relative; */
   margin: 0;
 }
 
@@ -251,14 +250,220 @@ span{
   content: "";
 }
 
-.icona-sx, .icona-centrale, .icona-dx{
+.icona{
   width: 33.333%;
   height: 300px;
   float: left;
   margin-top: 20px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .profile, .computer, .doc{
   height: 150px;
+}
+
+.icona >hr{
+  width: 10%;
+}
+
+.icona >h1{
+  color: green;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.icona >p{
+  color: dimgrey;
+}
+
+#montagna{
+  width: 100%;
+}
+
+#montagna:hover{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.img-mount{
+  margin-left: 10%;
+  width: 40%;
+}
+
+.mountain{
+  margin: 80px;
+  height: 300px;
+}
+
+.content-mount{
+  width: 40%;
+  float: right;
+  margin-right: 10%;
+}
+
+.content-mount >h1{
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: 20%;
+}
+
+.content-mount >p{
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 5%;
+  color: darkgrey;
+}
+
+.content-mount >a{
+  margin-top: 5%;
+  margin-right: 25%;
+  float: right;
+}
+
+#row-5{
+  width: 100%;
+  height: 10vw;
+  background-color: #f9f9f9;
+}
+
+#row-5:hover{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.grey-row5{
+  margin-left: 5%;
+  padding: 40px 20px 30px 20px;
+  background-color: #f9f9f9;
+  width: 80%;
+}
+
+.grey-row5 >h4{
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  font-family: sans-serif;
+}
+
+.grey-row5 >h4{
+  font-size: 35px;
+  font-family: sans-serif;
+  float: left;
+}
+
+.grey-row5 >h3{
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  font-family: sans-serif;
+}
+
+.grey-row5 >h3{
+  font-size: 35px;
+  font-family: sans-serif;
+  float: right;
+  color: darkgrey;
+}
+
+
+
+.row-6{
+  background-color: #0d325a;
+  width: 100%;
+  height: 30vw;
+  margin: 0;
+}
+
+.row-6::after{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.contenutrow-6{
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: white;
+}
+
+.sfondo-row6{
+  background-image: url("session-pc.png");
+  width: 50%;
+  height: 100%;
+  float: right;
+  margin: auto;
+  background-size: cover;
+}
+
+.contenutrow-6 >a{
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+.contenutrow-6 >h6{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.contenutrow-6 >span{
+  font-family: sans-serif;
+  font-size: 40px;
+  color: darkorange;
+  margin: auto;
+  display: inline-block;
+}
+
+
+#mani{
+  width: 100%;
+}
+
+#mani:hover{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.img-mani{
+  margin-left: 10%;
+  width: 40%;
+}
+
+.mani{
+  margin: 80px;
+  height: 200px;
+}
+
+.content-mani{
+  width: 40%;
+  float: right;
+  margin-right: 10%;
+}
+
+.content-mani >h1{
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: 20%;
+}
+
+.content-mani >p{
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 5%;
+  color: darkgrey;
+}
+
+.content-mani >a{
+  margin-top: 5%;
+  margin-right: 25%;
+  float: right;
 }
