@@ -3,7 +3,7 @@ body{
   height: 100vw;
 }
 
-#top{
+#all{
   background-color: #0d325a;
   height: 88px;
   box-sizing: border-box;
@@ -216,13 +216,6 @@ span{
   margin: 0;
 }
 
-/* .grey-bck{
-  background-color: #f9f9f9;
-  height: 10vw;
-  width: 100%;
-  margin: 0;
-} */
-
 .grey-bck{
   margin-left: -15px;
   margin-right: -15px;
@@ -244,4 +237,28 @@ span{
   font-weight: 300;
   color: black;
   font-family: sans-serif;
+}
+
+#elenco-icone{
+  height: 520px;
+  width: 80%;
+  margin: auto;
+}
+
+#elenco-icone:hover{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.icona-sx, .icona-centrale, .icona-dx{
+  width: 33.333%;
+  height: 300px;
+  float: left;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.profile, .computer, .doc{
+  height: 150px;
 }
