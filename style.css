@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  height: 100vw;
+}
+
+#top{
+  background-color: #0d325a;
+  height: 10%;
+}
+
+.header{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+/* .header::after{
+  clear: both;
+  display: table;
+  content: "";
+} */
+
+#logo{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+}
